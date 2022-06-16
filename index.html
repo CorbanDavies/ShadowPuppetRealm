@@ -20,7 +20,7 @@
     
   </head>
   <body>
-    <!-- Navigation Bar Start -->
+    <!-- Navigation Bar [BEGIN] -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <!-- Set Brand Logo -->
@@ -62,12 +62,13 @@
         </div>
       </div>
     </nav>
-    <!-- Navigation Bar End -->
+    <!-- Navigation Bar [END] -->
     
     <h3 class="text-center">Games</h3>
     <br />
-    <!-- Game Cards -->
+    <!-- Game Cards [BEGIN] -->
     <div class="row row-cols-1 row-cols-md-6 g-4">
+      <!-- Joss Game Card -->
       <div class="col">
         <div class="card">
           <img src="images/card-joss.png" class="card-img-top" alt="Card Image of Joss">
@@ -78,6 +79,7 @@
           </div>
         </div>
       </div>
+      <!-- Bread Thief Game Card -->
       <div class="col">
         <div class="card">
           <img src="images/card-bread.png" class="card-img-top" alt="Card Image of Bread">
@@ -88,6 +90,7 @@
           </div>
         </div>
       </div>
+      <!-- Mouse Machina Game Card -->
       <div class="col">
         <div class="card">
           <img src="images/card-mouse.png" class="card-img-top" alt="Card Image of Mouse">
@@ -98,37 +101,63 @@
           </div>
         </div>
       </div>
+      <!-- Placeholder Game Card -->
       <div class="col">
         <div class="card">
           <img src="images/placeholder.png" class="card-img-top" alt="Card Image Description">
           <div class="card-body">
             <h5 class="card-title">Blank Card</h5>
             <p class="card-text">Hey Wilson... you know what to do here! Use this as a template for any other cards you want.</p>
-            <a href="#" class="btn btn-primary">Do Whatever</a>
+            <!-- Show Modal on Button Click (Example) -->
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Do Whatever</a>
           </div>
         </div>
       </div>
+      <!-- Placeholder Game Card -->
       <div class="col">
         <div class="card">
           <img src="images/placeholder.png" class="card-img-top" alt="Card Image Description">
           <div class="card-body">
             <h5 class="card-title">Blank Card</h5>
             <p class="card-text">Hey Wilson... you know what to do here! Use this as a template for any other cards you want.</p>
-            <a href="#" class="btn btn-primary">Do Whatever</a>
+            <!-- Show Modal on Button Click (Example) -->
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Do Whatever</a>
           </div>
         </div>
       </div>
+      <!-- Placeholder Game Card -->
       <div class="col">
         <div class="card">
           <img src="images/placeholder.png" class="card-img-top" alt="Card Image Description">
           <div class="card-body">
             <h5 class="card-title">Blank Card</h5>
             <p class="card-text">Hey Wilson... you know what to do here! Use this as a template for any other cards you want.</p>
-            <a href="#" class="btn btn-primary">Do Whatever</a>
+            <!-- Show Modal on Button Click (Example) -->
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Do Whatever</a>
           </div>
         </div>
       </div>
     </div>
-    <!-- Game Cards -->
+    <!-- Game Cards [END] -->
+    
+    <!-- Modal [BEGIN] -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Hey! Stop That!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            You know this isn't a thing yet.  Knock it off! - Corban
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Bind Action Here</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal [END] -->
   </body>
 </html>
