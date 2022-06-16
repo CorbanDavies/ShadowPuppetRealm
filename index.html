@@ -120,8 +120,8 @@
           <div class="card-body">
             <h5 class="card-title">Blank Card</h5>
             <p class="card-text">Hey Wilson... you know what to do here! Use this as a template for any other cards you want.</p>
-            <!-- Show Modal on Button Click (Example) -->
-            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Do Whatever</a>
+            <!-- Show Off Canvas (Right) on Button Click (Example) -->
+            <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Do Whatever</a>
           </div>
         </div>
       </div>
@@ -132,8 +132,8 @@
           <div class="card-body">
             <h5 class="card-title">Blank Card</h5>
             <p class="card-text">Hey Wilson... you know what to do here! Use this as a template for any other cards you want.</p>
-            <!-- Show Modal on Button Click (Example) -->
-            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Do Whatever</a>
+            <!-- Show Off Canvas (Left) on Button Click (Example) -->
+            <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">Do Whatever</a>
           </div>
         </div>
       </div>
@@ -159,5 +159,28 @@
       </div>
     </div>
     <!-- Modal [END] -->
+    
+    <!-- Off Canvas [BEGIN] -->
+    <!-- Off Canvas (Right) -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        This is called "Off Canvas: Right"... you can set it to Top, Bottom, and Left as well.
+      </div>
+    </div>
+    <!-- Off Canvas (Left) -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasLeftLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        This is called "Off Canvas: Left"... you can set it to Top, Bottom, and Right as well.
+      </div>
+    </div>
+    <!-- Off Canvas [END] -->
   </body>
 </html>
